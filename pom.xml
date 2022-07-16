@@ -52,14 +52,14 @@
     <repository>
         <id>central</id>
         <name>SEYNABOU-DIAGNE-releases</name>
-        <url>http://localhost:8081/artifactory/esmt</url>
+        <url>http://localhost:8082/artifactory/budget_seynab</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>SEYNABOU-DIAGNE-snapshots</name>
-        <url>http://localhost:8081/artifactory/esmt</url>
+        <url>http://localhost:8082/artifactory/budget_seynab</url>
     </snapshotRepository>
-	</distributionManagement>
+</distributionManagement>
 
 	<build>
 		<plugins>
@@ -73,7 +73,7 @@
                     <version>2.2</version>
                     <configuration>
                         <update>true</update>
-                        <url>http://localhost:8060/manager/html</url>
+                        <url>http://localhost:8060/manager/text</url>
                         <server>TomcatServer</server>
                         <username>admin</username>
                         <password>passer</password>
